@@ -1,0 +1,11 @@
+name: Auto Assign
+run-name: ${{ github.actor }} - Auto Assign
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  run:
+    uses: jtorleon-studios-team/.workflows/.github/workflows/auto-publish-maven.yml@main
+    secrets: inherit
