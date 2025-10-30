@@ -1,5 +1,5 @@
-name: Auto Assign
-run-name: ${{ github.actor }} - Auto Assign
+name: Auto Publish Maven
+run-name: ${{ github.actor }} - Auto Publish Maven
 
 on:
   release:
